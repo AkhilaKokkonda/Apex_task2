@@ -1,0 +1,149 @@
+/* ===== Body and background ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #001f3f 0%, #6699cc 100%); /* Navy to pale blue */
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ===== Form container (login/register) ===== */
+.form-container {
+    background-color: #e6f0fa; /* Pale blue card */
+    padding: 50px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.25);
+    width: 480px;
+    max-width: 90%;
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.form-container:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== Form heading ===== */
+.form-container h2 {
+    margin-bottom: 30px;
+    color: #001f3f; /* Navy blue */
+    font-size: 30px;
+    font-weight: 600;
+}
+
+/* ===== Input fields ===== */
+.form-container input {
+    width: 100%;
+    padding: 16px 20px;
+    margin: 12px 0;
+    border-radius: 12px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-sizing: border-box;
+    transition: border 0.3s ease;
+}
+
+.form-container input:focus {
+    border: 2px solid #0059b3; /* Bright blue focus */
+    outline: none;
+}
+
+/* ===== Submit button ===== */
+.form-container button {
+    width: 100%;
+    padding: 16px;
+    margin-top: 15px;
+    border: none;
+    background-color: #001f3f; /* Navy blue */
+    color: #fff;
+    font-size: 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-container button:hover {
+    background-color: #0059b3; /* Bright blue hover */
+    transform: translateY(-2px);
+}
+
+/* ===== Links ===== */
+.form-container p {
+    margin-top: 20px;
+    font-size: 15px;
+    color: #333;
+}
+
+.form-container a {
+    color: #001f3f; /* Navy */
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Error & Success messages ===== */
+p.error-msg {
+    color: #e53935; /* Red for errors */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+p.success-msg {
+    color: #27ae60; /* Green for success */
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+/* ===== Dashboard container ===== */
+.dashboard-container {
+    background-color: #e6f0fa; /* Pale blue card */
+    padding: 60px 50px;
+    border-radius: 20px;
+    box-shadow: 0px 15px 40px rgba(0, 0, 0, 0.25);
+    width: 600px;
+    max-width: 90%;
+    text-align: center;
+    margin: 60px auto;
+    transition: transform 0.3s ease;
+}
+
+.dashboard-container:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== Dashboard heading ===== */
+.dashboard-container h2 {
+    color: #001f3f; /* Navy */
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+/* ===== Dashboard text ===== */
+.dashboard-container p {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* ===== Dashboard buttons ===== */
+.dashboard-container a {
+    display: inline-block;
+    margin: 10px 15px 0 15px;
+    padding: 14px 28px;
+    background-color: #001f3f; /* Navy */
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 12px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.dashboard-container a:hover {
+    background-color: #0059b3; /* Bright blue hover */
+    transform: translateY(-2px);
+}
